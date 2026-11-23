@@ -1,0 +1,28 @@
+project: PSO-Based Agricultural Commodity Price Prediction
+dataset: C:\Users\sagni\Downloads\AI-Based Agricultural Commodity Price Prediction
+  and Optimal Market Recommendation\9ef84268-d588-465a-a308-a864a43d0070.csv
+algorithm: PSO
+predictor: RandomForestRegressor
+target: Modal_Price
+features:
+- State
+- District
+- Market
+- Commodity
+- Variety
+- Grade
+seed: 42
+pso:
+  particles: 8
+  iterations: 8
+  inertia: 0.7
+  cognitive: 1.5
+  social: 1.5
+  cv_folds: 3
+best_parameters:
+  n_estimators: 179
+  max_depth: 30
+  min_samples_split: 11
+  min_samples_leaf: 2
+  max_features: 0.5696031491215111
+best_cv_rmse: 5282.68605583885

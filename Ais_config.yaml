@@ -1,0 +1,28 @@
+project: AIS-Based Agricultural Commodity Price Prediction
+dataset: C:\Users\sagni\Downloads\AI-Based Agricultural Commodity Price Prediction
+  and Optimal Market Recommendation\9ef84268-d588-465a-a308-a864a43d0070.csv
+algorithm: CLONALG
+predictor: RandomForestRegressor
+target: Modal_Price
+features:
+- State
+- District
+- Market
+- Commodity
+- Variety
+- Grade
+seed: 42
+ais:
+  population_size: 8
+  generations: 8
+  top_antibodies: 3
+  clones_per_antibody: 3
+  random_new_antibodies: 2
+  cv_folds: 3
+best_parameters:
+  n_estimators: 69
+  max_depth: 30
+  min_samples_split: 14
+  min_samples_leaf: 2
+  max_features: 0.7203955275941194
+best_cv_rmse: 5275.352048258596

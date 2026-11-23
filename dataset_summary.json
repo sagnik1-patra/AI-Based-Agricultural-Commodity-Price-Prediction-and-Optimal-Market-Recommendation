@@ -1,0 +1,11 @@
+{
+    "total_records": 17142,
+    "total_states": 27,
+    "total_districts": 520,
+    "total_markets": 1840,
+    "total_commodities": 266,
+    "average_modal_price": 5607.638189700619,
+    "median_modal_price": 4250.0,
+    "minimum_modal_price": 0.01,
+    "maximum_modal_price": 330000.0
+}

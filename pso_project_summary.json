@@ -1,0 +1,29 @@
+{
+    "dataset_records": 17142,
+    "unique_states": 27,
+    "unique_markets": 1840,
+    "unique_commodities": 266,
+    "unique_dates": 1,
+    "algorithm": "PSO",
+    "best_parameters": {
+        "n_estimators": 179,
+        "max_depth": 30,
+        "min_samples_split": 11,
+        "min_samples_leaf": 2,
+        "max_features": 0.5696031491215111
+    },
+    "baseline_metrics": {
+        "MAE": 1758.57725485131,
+        "RMSE": 3787.8468817693156,
+        "R2": 0.5350922750544183,
+        "MAPE": 8779.528978738239
+    },
+    "pso_metrics": {
+        "MAE": 1578.362781493507,
+        "RMSE": 3683.2787213176402,
+        "R2": 0.5604066634054066,
+        "MAPE": 9157.642398561147
+    },
+    "best_cv_rmse": 5282.68605583885,
+    "evaluation_note": "Test metrics evaluate held-out market records, not future-date forecasting."
+}

@@ -1,0 +1,41 @@
+{
+    "project": "Agricultural Commodity Price Prediction",
+    "dataset_information": {
+        "total_records": 17142,
+        "features": [
+            "State",
+            "District",
+            "Market",
+            "Commodity",
+            "Variety",
+            "Grade"
+        ],
+        "target": "Modal_Price",
+        "unique_states": 27,
+        "unique_markets": 1840,
+        "unique_commodities": 266,
+        "unique_dates": 1
+    },
+    "model_performance": {
+        "Baseline": {
+            "MAE": 2889.8843418932634,
+            "RMSE": 5689.996196169407,
+            "R2": -0.049073422708701075,
+            "MAPE": 12694.36219072417
+        },
+        "Random_Forest": {
+            "MAE": 1766.7886718491322,
+            "RMSE": 3933.807788990137,
+            "R2": 0.49857243542112617,
+            "MAPE": 8885.294724412319
+        },
+        "Neural_Network": {
+            "MAE": 1510.1648095316239,
+            "RMSE": 3899.7003734360687,
+            "R2": 0.5072298266825984,
+            "MAPE": 9460.799202914584
+        }
+    },
+    "best_model": "Neural_Network",
+    "evaluation_note": "Random held-out record evaluation on a single-date market dataset. Not a future-date forecasting evaluation."
+}

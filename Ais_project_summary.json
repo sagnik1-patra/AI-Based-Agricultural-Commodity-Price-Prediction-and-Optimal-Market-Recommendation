@@ -1,0 +1,29 @@
+{
+    "dataset_records": 17142,
+    "unique_states": 27,
+    "unique_markets": 1840,
+    "unique_commodities": 266,
+    "unique_dates": 1,
+    "algorithm": "CLONALG",
+    "best_parameters": {
+        "n_estimators": 69,
+        "max_depth": 30,
+        "min_samples_split": 14,
+        "min_samples_leaf": 2,
+        "max_features": 0.7203955275941194
+    },
+    "baseline_metrics": {
+        "MAE": 1758.57725485131,
+        "RMSE": 3787.8468817693156,
+        "R2": 0.5350922750544183,
+        "MAPE": 8779.528978738235
+    },
+    "ais_metrics": {
+        "MAE": 1583.7101247863545,
+        "RMSE": 3697.1149104669435,
+        "R2": 0.5570978067864272,
+        "MAPE": 8734.011145590242
+    },
+    "best_cv_rmse": 5275.352048258596,
+    "evaluation_note": "Test metrics evaluate held-out market records from the available dataset, not future-date forecasting."
+}

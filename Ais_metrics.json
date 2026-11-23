@@ -1,0 +1,26 @@
+{
+    "models": {
+        "Baseline_RF": {
+            "MAE": 1758.57725485131,
+            "RMSE": 3787.8468817693156,
+            "R2": 0.5350922750544183,
+            "MAPE": 8779.528978738235
+        },
+        "AIS_Optimized_RF": {
+            "MAE": 1583.7101247863545,
+            "RMSE": 3697.1149104669435,
+            "R2": 0.5570978067864272,
+            "MAPE": 8734.011145590242
+        }
+    },
+    "best_ais_parameters": {
+        "n_estimators": 69,
+        "max_depth": 30,
+        "min_samples_split": 14,
+        "min_samples_leaf": 2,
+        "max_features": 0.7203955275941194
+    },
+    "best_cv_rmse": 5275.352048258596,
+    "optimization_algorithm": "CLONALG",
+    "evaluation": "Held-out same-date market records"
+}
